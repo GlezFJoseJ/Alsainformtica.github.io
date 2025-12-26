@@ -1,0 +1,545 @@
+#Comer { display: none;}
+#Produ { display: none;}
+#nube { display: none;}
+
+#softrestaurant { display: none;}
+#crmzeuz { display: none;}
+#mybusinesspos { display: none;}
+
+#Start { display: none;}
+#Pro { display: none;}
+
+#two { display: none;}
+#three{ display: none;}
+.St {
+  position: fixed;
+  animation: animateDiv 10s forwards;
+}
+.fon{ background-color: #eee;}
+.zpdark-section a {
+    color: #ffffff!important;
+}
+body{
+   cursor: url(inicio/CONTPAQi_icono.cur), url(inicio/CONTPAQi_icono.cur), pointer!important;
+}
+.zpelement.zptab-content.\.hide.zptab-active-content {
+    display: none!important;
+}
+
+display:none!important}
+.movil {
+    position: absolute;
+    top: -155px;
+    left: -290px;
+    width: 840px;
+}
+.cambio:hover {
+    	display:none;
+    	position:relative;z-index=25px;
+        background: url("files/Co2.png") no-repeat;
+     	display:block;
+        cursor: pointer;
+    }
+
+.elipse:hover {
+        background: url("files/cv.png") no-repeat;
+    cursor: pointer;
+}
+.fa-spin {
+    -webkit-animation: spin 2s infinite linear;
+    -moz-animation: spin 2s infinite linear;
+    -o-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear
+}
+
+.fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle
+}
+
+.p:hover{
+	position:relative;
+    background: url("files/Cm4.jpg") no-repeat;  
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 125px;
+	display: block;   
+    cursor: pointer;
+    }
+.p:hover img{
+    visibility:hidden;    
+	}
+.cb:hover{
+	position:relative;
+    background: url("files/Cn2.jpg") no-repeat;  
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 125px;
+	display: block;   
+    cursor: pointer;
+    }
+
+.cb:hover img{
+	visibility:hidden;
+    }
+
+.pd:hover{
+	position:relative;
+	background: url("files/Pd2.jpg") no-repeat;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 125px;
+	display: block;   
+    cursor: pointer;
+    }
+
+.pd:hover img{
+	visibility:hidden;
+    }
+
+.nb:hover{
+	position:relative;
+	background: url("files/Nb2.jpg") no-repeat;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 125px;
+	display: block;   
+    cursor: pointer;
+    }
+
+.nb:hover img{
+	visibility:hidden;
+    }
+.temporizador:hover {
+  transform: rotate(360deg);
+}
+
+.puntero{cursor: pointer;}
+
+.sobre:hover {
+    position:absolute;
+  height:200px;
+  width:200px;
+  top: 40px;
+  left : 40px;
+  background: url("files/verde.png") no-repeat;
+    cursor: pointer;}
+  
+.2:hover {
+position: relative;
+overflow: hidden;
+max-width: 1140px;
+margin: 0 auto;
+        background: url("files/verde.png") no-repeat;
+    }
+@media only screen and (max-width: 768px){
+.card-wrapper  {
+      border-radius: 10px 10px 0px 0px!important;
+  max-height: 90px!important;
+  overflow: hidden!important;
+  transition: max-height 500ms ease-in-out;
+    width: 90%!important;
+    margin: 0 5%!important;
+    box-shadow: 0px 0px 5px #303030cf;
+}
+.card-wrapper:hover  {
+    cursor: pointer;
+    max-height: 300px!important;
+
+    }
+    .zpelement.zptab.blog-conta {
+    background-color: #005eb8!important;
+    margin: 0 4px!important;
+    color: #ffffff!important;
+    text-align: center!important;
+            font-size: 16px!important;
+    font-weight: bold!important;
+}
+        .zpelement.zptab.blog-fiscales {
+    background-color: #009cde!important;
+    margin: 0 4px!important;
+    color: #ffffff!important;
+    text-align: center!important;
+            font-size: 16px!important;
+    font-weight: bold!important;
+            
+}
+        .zpelement.zptab.blog-digital {
+    background-color: #009e9c!important;
+    margin: 0 4px!important;
+    color: #ffffff!important;
+    text-align: center!important;
+            font-size: 16px!important;
+    font-weight: bold!important;
+}
+      .zpelement.zptab.blog-empresarial {
+    background-color: #7a539a!important;
+    margin: 0 4px!important;
+    color: #ffffff!important;
+    text-align: center!important;
+            font-size: 16px!important;
+    font-weight: bold!important;
+}  
+        .zpelement.zptab.blog-nube {
+    background-color: #19c0f3!important;
+    margin: 0 4px!important;
+    color: #ffffff!important;
+    text-align: center!important;
+            font-size: 16px!important;
+    font-weight: bold!important;
+}
+ .zpelement.zptab.blog-ecommerce {
+    background-color: #8229f1!important;
+    margin: 0 4px!important;
+    color: #ffffff!important;
+    text-align: center!important;
+    font-size: 16px!important;
+    font-weight: bold!important;
+}
+}
+@media only screen and (min-width: 769px){
+    .card-wrapper  {
+        border-radius: 10px 10px 0px 0px!important;
+        max-height: 90px!important;
+        overflow: hidden!important;
+        transition: max-height 500ms ease-in-out;
+        width: 24%!important;
+        margin: 0 0.5%!important;
+        box-shadow: 0px 0px 5px #303030cf;
+    }
+    .card-wrapper:hover  {
+        cursor: pointer;
+        max-height: 300px!important;
+
+    }
+
+    .zpelement.zptab.blog-conta {
+        background-color: #005eb8!important;
+        margin: 0 4px!important;
+        max-width: 206px!important;
+        width: 15.5%!important;
+        color: #ffffff!important;
+        text-align: center!important;
+        font-size: 14px!important;
+        font-weight: bold!important;
+        line-height: 1.2!important;
+        justify-content:center;
+    }
+    .zpelement.zptab.blog-fiscales {
+        background-color: #009cde!important;
+        margin: 0 4px!important;
+        max-width: 206px!important;
+        width: 15.5%!important;
+        color: #ffffff!important;
+        text-align: center!important;
+        font-size: 14px!important;
+        font-weight: bold!important;
+        line-height: 1.2!important;
+        justify-content:center;
+    }
+    .zpelement.zptab.blog-digital {
+        background-color: #009e9c!important;
+        margin: 0 4px!important;
+        max-width: 206px!important;
+        width: 15.5%!important;
+        color: #ffffff!important;
+        text-align: center!important;
+        font-size: 14px!important;
+        font-weight: bold!important;
+        line-height: 1.2!important;
+        justify-content:center;
+    }
+    .zpelement.zptab.blog-empresarial {
+        background-color: #7a539a!important;
+        margin: 0 4px!important;
+        max-width: 206px!important;
+        width: 15.5%!important;
+        color: #ffffff!important;
+        text-align: center!important;
+        font-size: 14px!important;
+        font-weight: bold!important;
+        line-height: 1.2!important;
+        justify-content:center;
+    }  
+    .zpelement.zptab.blog-nube {
+        background-color: #19c0f3!important;
+        margin: 0 4px!important;
+        max-width: 206px!important;
+        width: 15.5%!important;
+        color: #ffffff!important;
+        text-align: center!important;
+        font-size: 14px!important;
+        font-weight: bold!important;
+        line-height: 1.2!important;
+        justify-content:center;
+    }
+    .zpelement.zptab.blog-ecommerce {
+        background-color: #8229f1!important;
+        margin: 0 4px!important;
+        max-width: 206px!important;
+        width: 15.5%!important;
+        color: #ffffff!important;
+        text-align: center!important;
+        font-size: 14px!important;
+        font-weight: bold!important;
+        line-height: 1.2!important;
+        justify-content:center;
+    }
+}
+
+.boxNotePilares{
+	position: relative;
+    min-height: 370px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.boxNotePilares > div{
+    position: relative;
+    z-index:1;
+    width: 100%;
+}
+.boxNotePilares:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+.boxNotePilares:hover:before {
+    background-color: rgba(0,17,38,0.8);
+}
+.boxNotePilares a{
+	color:#ffffff;
+}
+.boxNotePilares:hover .boxCategoryNote{
+    opacity: 1;
+}
+.boxCategoryNote{
+    position: absolute !important;
+    top: 10px;
+    left: 15px;
+    opacity: 0;
+    width: auto !important;
+}
+
+.mxHeight120 .zpimage-container.zpimage-align-center.zpimage-size-fit figure img{
+	max-height: 120px;
+    height: 120px !important;
+    width: 100%!important;
+    max-width: 100%!important;
+    object-fit:cover;
+}
+.linkColorWhite a{
+	color: #ffffff !important;
+}
+.maxWidth1140{
+	max-width:  1140px;
+    width: 100%;
+    margin: auto !important;
+    padding: 0 15px !important;
+}
+.maxWidth1470{
+	max-width: 1470px;
+    width: 100%;
+    margin: auto !important;
+    padding: 0 15px !important;
+}
+.maxWidth855{
+	max-width: 855px;
+    width: 100%;
+}
+.carrusselBlogHome{
+	width: 100%;
+    margin: 0;
+}
+.carrusselBlogHome .zpbackground-size-cover {
+    min-height: 550px;
+}
+.textHomeNotes p a {
+	color: #045eb8 !important;
+}
+.textHomeNotes p:first-of-type a {
+	color: #0032a0 !important;
+}
+
+.btnsPilares > div{
+	padding-left: 7px !important;
+    padding-right: 7px !important;
+}
+.btn_gradientContabilidad a{
+	background-image: linear-gradient(to bottom, #003a70, #00c0f3) !important;
+        line-height: 1.1 !important;
+}
+.btn_gradientTFiscales a{
+	background-image: linear-gradient(to bottom, #005cb9, #002e5d) !important;
+        line-height: 1.1 !important;
+}
+.btn_gradientTDigital a{
+	background-image: linear-gradient(to bottom, #005151, #009e9c) !important;
+        line-height: 1.1 !important;
+}
+.btn_gradientGEmpresarial a{
+	background: linear-gradient(0deg, rgba(0,192,243,1) 0%, rgba(0,77,126,1) 0%, rgba(125,58,190,1) 100%)!important;
+        line-height: 1.1 !important;
+}
+.btn_gradientNube a{
+	background-image: linear-gradient(to bottom, #582c83, #003a70 65%, #00c0f3) !important;
+        line-height: 1.1 !important;
+}
+.btn_gradientEcommerce a{
+	background: rgb(126,0,107) !important;
+    background: linear-gradient(0deg, rgba(126,0,107,1) 0%, rgba(126,2,110,1) 25%, rgba(125,58,190,1) 100%)!important;
+        line-height: 1.1 !important;
+}
+
+.btn_gradientDescargas a{
+	background-image: linear-gradient(to bottom, #00dfa6, #00c0f3) !important;
+        line-height: 1.1 !important;
+}
+
+.btn_gradientEmprendete a{
+	background-image: linear-gradient(to bottom, #003a70, #005cb9) !important;
+        line-height: 1.1 !important;
+}
+
+.linksBlue a{
+	color: #045eb8 !important;
+}
+.gradientBlue{
+	background-image: linear-gradient(to bottom, #003a70, #00c0f3);
+}
+.gradientGreen{
+	 background-image: linear-gradient(to bottom, #005151, #009e9c);
+}
+.carrusselBlogHome .zpcarousel-arrow-left{
+	left: 20px !important;
+}
+.carrusselBlogHome .zpcarousel-arrow-right{
+	right: 20px !important;
+}
+.carrusselBlogHome .zpcarousel-arrow-right svg,
+.carrusselBlogHome .zpcarousel-arrow-left svg{
+	fill: #045eb8!important;
+}
+.stylesDotsSlider .zpcarousel-controller{
+	border-color: #ffffff !important;
+    background:  #ffffff !important;
+    margin: 0 3px !important;
+}
+.stylesDotsSlider .zpcarousel-controller.zpcarousel-controller-active{
+	background: #00c0f3 !important;
+    border-color: #00c0f3 !important;
+}
+.stylesDotsSlider .zpcarousel-controller-container{
+	display: none!important;
+}
+@media(max-width: 768px){
+    .sm-txtCenter p{
+    	text-align:center;
+    }
+}
+@media(max-width: 995px){
+    .stylesDotsSlider .zpcarousel-controller-container{
+	display: flex!important;
+	}
+    .stylesDotsSlider .zpcarousel-arrows-container{
+    	display: none!important;
+    }
+    .notasHomeBlog {
+    padding-right: 15px!important;
+    padding-left: 15px!important;
+    }
+    .carrusselBlogHome .maxWidth1140 p span,
+     .carrusselBlogHome .maxWidth1140 h2 span{
+    	font-size: 40px !important;
+    }
+    
+    .notasDestacadas{
+    	padding: 0 15px !important;
+    }
+     .notasDestacadas > div{
+       width: 100%;
+        max-width: 500px;
+        margin: auto;
+    }
+}
+@media(min-width: 995px){
+    .notasHomeBlog .md-pRL{
+    padding-right: 35px!important;
+    padding-left: 35px!important;
+    }
+}
+@media(min-width: 1285px){
+.container1280 .zpcontainer{
+    width: 1280px;
+}
+}
+@media(min-width: 992px){
+    .col20P .zpcol-md-2 {
+        width: 20%;
+    }
+}
+
+@media(max-width: 500px){
+    .fontSizeTitleMB h1,.fontSizeTitleMB h2,
+    .fontSizeTitleMB h1 span, .fontSizeTitleMB h2 span{
+    	font-size: 32px !important;
+    }
+    .fontSizeTitleMinMB h1,.fontSizeTitleMinMB h2,
+    .fontSizeTitleMinMB h1 span, .fontSizeTitleMinMB h2 span,
+    .fontSizeTitleMinMB h3, .fontSizeTitleMinMB h3 span{
+    	font-size: 30px !important;
+    }
+    .fontSizeTxtMB span{
+    	font-size: 16px!important;
+    }
+    .fontSizeTxtMaxMB span{
+    	font-size: 22px!important;
+    }
+    .contentNote div{
+    	margin: 0 !important;
+	}
+    .contentNote h2{
+    	font-size: 30px!important; 
+        text-align: left !important;
+        line-height: 1.35 !important;
+	}
+    .contentNote h3{
+    	font-size: 26px!important;
+        text-align: left !important;
+        line-height: 1.35 !important;
+	}
+    .contentNote ul, .contentNote ol{
+    	margin-left: 0!important;
+    }
+    .carrusselBlogHome .maxWidth1140 p span, .carrusselBlogHome .maxWidth1140 h2 span {
+    font-size: 34px !important;
+	}
+    .carrusselBlogHome.sm-flxend .zpelem-col.zpbackground-size-cover  {
+    	display: flex;
+    align-items: flex-end;
+    padding-bottom: 70px;
+    }
+    .carrusselBlogHome.sm-flxend .maxWidth1140{
+    	margin: 0!important;
+    }
+    .carrusselBlogHome.stylesDotsSlider .zpcol-sm-12{
+	       padding-right: 5px !important;
+    		padding-left: 5px !important;
+	}
+}
+
+/**/
+@media (min-width: 992px)
+.theme-header .zpcontainer {
+    justify-content: flex-start;
+    width: 100%;
+}
